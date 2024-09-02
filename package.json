@@ -1,6 +1,6 @@
 {
   "name": "rn-remixicon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remixicons for React Native",
   "main": "src/index.tsx",
   "react-native": "src/index",
