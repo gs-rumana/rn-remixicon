@@ -3,12 +3,12 @@
 
 ## Installation
 ```bash
-npm install react-native-remixicon
+npm install rn-remixicon
 ```
 
 ## Usage
 ```jsx
-import RemixIcon from 'react-native-remixicon';
+import RemixIcon from 'rn-remixicon';
 
 <RemixIcon name="macbook-line" size={24} color="#000" />
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-remixicon",
+  "name": "rn-remixicon",
   "version": "1.0.0",
   "description": "Remixicons for React Native",
   "main": "src/index.tsx",
