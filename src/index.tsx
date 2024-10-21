@@ -2,7 +2,7 @@ import React from "react";
 import * as Icons from "./icons";
 
 export interface RemixIconProps {
-  name: string;
+  name: Icons.IconName;
   size?: number;
   color?: string;
 }
