@@ -1,0 +1,14 @@
+import * as React from "react";
+import Svg, { Path } from "react-native-svg";
+import type { SvgProps } from "react-native-svg";
+const SvgStickyNote2Line = (props: SvgProps) => (
+  <Svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <Path d="M3.998 21A.996.996 0 0 1 3 20.007V3.993C3 3.445 3.445 3 3.993 3h16.014c.548 0 .993.447.993.999V16l-5.003 5zM5 19h10.169L19 15.171V5H5z" />
+  </Svg>
+);
+export default SvgStickyNote2Line;
