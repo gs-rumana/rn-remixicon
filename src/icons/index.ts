@@ -3,6 +3,8 @@ export { default as Svg24HoursLine } from "./24-hours-line";
 export { default as Svg4kFill } from "./4k-fill";
 export { default as Svg4kLine } from "./4k-line";
 export { default as AB } from "./a-b";
+export { default as AccessibilityFill } from "./accessibility-fill";
+export { default as AccessibilityLine } from "./accessibility-line";
 export { default as AccountBox2Fill } from "./account-box-2-fill";
 export { default as AccountBox2Line } from "./account-box-2-line";
 export { default as AccountBoxFill } from "./account-box-fill";
@@ -36,6 +38,8 @@ export { default as AiGenerateText } from "./ai-generate-text";
 export { default as AiGenerate } from "./ai-generate";
 export { default as AirplayFill } from "./airplay-fill";
 export { default as AirplayLine } from "./airplay-line";
+export { default as AlarmAddFill } from "./alarm-add-fill";
+export { default as AlarmAddLine } from "./alarm-add-line";
 export { default as AlarmFill } from "./alarm-fill";
 export { default as AlarmLine } from "./alarm-line";
 export { default as AlarmSnoozeFill } from "./alarm-snooze-fill";
@@ -119,6 +123,8 @@ export { default as ArrowDownDoubleFill } from "./arrow-down-double-fill";
 export { default as ArrowDownDoubleLine } from "./arrow-down-double-line";
 export { default as ArrowDownFill } from "./arrow-down-fill";
 export { default as ArrowDownLine } from "./arrow-down-line";
+export { default as ArrowDownLongFill } from "./arrow-down-long-fill";
+export { default as ArrowDownLongLine } from "./arrow-down-long-line";
 export { default as ArrowDownSFill } from "./arrow-down-s-fill";
 export { default as ArrowDownSLine } from "./arrow-down-s-line";
 export { default as ArrowDownWideFill } from "./arrow-down-wide-fill";
@@ -145,8 +151,12 @@ export { default as ArrowLeftDownBoxFill } from "./arrow-left-down-box-fill";
 export { default as ArrowLeftDownBoxLine } from "./arrow-left-down-box-line";
 export { default as ArrowLeftDownFill } from "./arrow-left-down-fill";
 export { default as ArrowLeftDownLine } from "./arrow-left-down-line";
+export { default as ArrowLeftDownLongFill } from "./arrow-left-down-long-fill";
+export { default as ArrowLeftDownLongLine } from "./arrow-left-down-long-line";
 export { default as ArrowLeftFill } from "./arrow-left-fill";
 export { default as ArrowLeftLine } from "./arrow-left-line";
+export { default as ArrowLeftLongFill } from "./arrow-left-long-fill";
+export { default as ArrowLeftLongLine } from "./arrow-left-long-line";
 export { default as ArrowLeftRightFill } from "./arrow-left-right-fill";
 export { default as ArrowLeftRightLine } from "./arrow-left-right-line";
 export { default as ArrowLeftSFill } from "./arrow-left-s-fill";
@@ -155,6 +165,8 @@ export { default as ArrowLeftUpBoxFill } from "./arrow-left-up-box-fill";
 export { default as ArrowLeftUpBoxLine } from "./arrow-left-up-box-line";
 export { default as ArrowLeftUpFill } from "./arrow-left-up-fill";
 export { default as ArrowLeftUpLine } from "./arrow-left-up-line";
+export { default as ArrowLeftUpLongFill } from "./arrow-left-up-long-fill";
+export { default as ArrowLeftUpLongLine } from "./arrow-left-up-long-line";
 export { default as ArrowLeftWideFill } from "./arrow-left-wide-fill";
 export { default as ArrowLeftWideLine } from "./arrow-left-wide-line";
 export { default as ArrowRightBoxFill } from "./arrow-right-box-fill";
@@ -167,14 +179,20 @@ export { default as ArrowRightDownBoxFill } from "./arrow-right-down-box-fill";
 export { default as ArrowRightDownBoxLine } from "./arrow-right-down-box-line";
 export { default as ArrowRightDownFill } from "./arrow-right-down-fill";
 export { default as ArrowRightDownLine } from "./arrow-right-down-line";
+export { default as ArrowRightDownLongFill } from "./arrow-right-down-long-fill";
+export { default as ArrowRightDownLongLine } from "./arrow-right-down-long-line";
 export { default as ArrowRightFill } from "./arrow-right-fill";
 export { default as ArrowRightLine } from "./arrow-right-line";
+export { default as ArrowRightLongFill } from "./arrow-right-long-fill";
+export { default as ArrowRightLongLine } from "./arrow-right-long-line";
 export { default as ArrowRightSFill } from "./arrow-right-s-fill";
 export { default as ArrowRightSLine } from "./arrow-right-s-line";
 export { default as ArrowRightUpBoxFill } from "./arrow-right-up-box-fill";
 export { default as ArrowRightUpBoxLine } from "./arrow-right-up-box-line";
 export { default as ArrowRightUpFill } from "./arrow-right-up-fill";
 export { default as ArrowRightUpLine } from "./arrow-right-up-line";
+export { default as ArrowRightUpLongFill } from "./arrow-right-up-long-fill";
+export { default as ArrowRightUpLongLine } from "./arrow-right-up-long-line";
 export { default as ArrowRightWideFill } from "./arrow-right-wide-fill";
 export { default as ArrowRightWideLine } from "./arrow-right-wide-line";
 export { default as ArrowTurnBackFill } from "./arrow-turn-back-fill";
@@ -191,6 +209,8 @@ export { default as ArrowUpDownFill } from "./arrow-up-down-fill";
 export { default as ArrowUpDownLine } from "./arrow-up-down-line";
 export { default as ArrowUpFill } from "./arrow-up-fill";
 export { default as ArrowUpLine } from "./arrow-up-line";
+export { default as ArrowUpLongFill } from "./arrow-up-long-fill";
+export { default as ArrowUpLongLine } from "./arrow-up-long-line";
 export { default as ArrowUpSFill } from "./arrow-up-s-fill";
 export { default as ArrowUpSLine } from "./arrow-up-s-line";
 export { default as ArrowUpWideFill } from "./arrow-up-wide-fill";
@@ -530,6 +550,8 @@ export { default as CheckboxMultipleBlankFill } from "./checkbox-multiple-blank-
 export { default as CheckboxMultipleBlankLine } from "./checkbox-multiple-blank-line";
 export { default as CheckboxMultipleFill } from "./checkbox-multiple-fill";
 export { default as CheckboxMultipleLine } from "./checkbox-multiple-line";
+export { default as ChessFill } from "./chess-fill";
+export { default as ChessLine } from "./chess-line";
 export { default as ChinaRailwayFill } from "./china-railway-fill";
 export { default as ChinaRailwayLine } from "./china-railway-line";
 export { default as ChromeFill } from "./chrome-fill";
@@ -765,6 +787,10 @@ export { default as DeviceFill } from "./device-fill";
 export { default as DeviceLine } from "./device-line";
 export { default as DeviceRecoverFill } from "./device-recover-fill";
 export { default as DeviceRecoverLine } from "./device-recover-line";
+export { default as DiamondFill } from "./diamond-fill";
+export { default as DiamondLine } from "./diamond-line";
+export { default as DiamondRingFill } from "./diamond-ring-fill";
+export { default as DiamondRingLine } from "./diamond-ring-line";
 export { default as Dice1Fill } from "./dice-1-fill";
 export { default as Dice1Line } from "./dice-1-line";
 export { default as Dice2Fill } from "./dice-2-fill";
@@ -984,6 +1010,8 @@ export { default as FediverseFill } from "./fediverse-fill";
 export { default as FediverseLine } from "./fediverse-line";
 export { default as FeedbackFill } from "./feedback-fill";
 export { default as FeedbackLine } from "./feedback-line";
+export { default as FigmaFill } from "./figma-fill";
+export { default as FigmaLine } from "./figma-line";
 export { default as File2Fill } from "./file-2-fill";
 export { default as File2Line } from "./file-2-line";
 export { default as File3Fill } from "./file-3-fill";
@@ -1112,6 +1140,8 @@ export { default as FireFill } from "./fire-fill";
 export { default as FireLine } from "./fire-line";
 export { default as FirebaseFill } from "./firebase-fill";
 export { default as FirebaseLine } from "./firebase-line";
+export { default as FirefoxBrowserFill } from "./firefox-browser-fill";
+export { default as FirefoxBrowserLine } from "./firefox-browser-line";
 export { default as FirefoxFill } from "./firefox-fill";
 export { default as FirefoxLine } from "./firefox-line";
 export { default as FirstAidKitFill } from "./first-aid-kit-fill";
@@ -1540,6 +1570,8 @@ export { default as JavaFill } from "./java-fill";
 export { default as JavaLine } from "./java-line";
 export { default as JavascriptFill } from "./javascript-fill";
 export { default as JavascriptLine } from "./javascript-line";
+export { default as JewelryFill } from "./jewelry-fill";
+export { default as JewelryLine } from "./jewelry-line";
 export { default as KakaoTalkFill } from "./kakao-talk-fill";
 export { default as KakaoTalkLine } from "./kakao-talk-line";
 export { default as KanbanView2 } from "./kanban-view-2";
@@ -1881,6 +1913,8 @@ export { default as MovieAiFill } from "./movie-ai-fill";
 export { default as MovieAiLine } from "./movie-ai-line";
 export { default as MovieFill } from "./movie-fill";
 export { default as MovieLine } from "./movie-line";
+export { default as MultiImageFill } from "./multi-image-fill";
+export { default as MultiImageLine } from "./multi-image-line";
 export { default as Music2Fill } from "./music-2-fill";
 export { default as Music2Line } from "./music-2-line";
 export { default as MusicAiFill } from "./music-ai-fill";
@@ -1905,6 +1939,8 @@ export { default as NextjsFill } from "./nextjs-fill";
 export { default as NextjsLine } from "./nextjs-line";
 export { default as NftFill } from "./nft-fill";
 export { default as NftLine } from "./nft-line";
+export { default as NoCreditCardFill } from "./no-credit-card-fill";
+export { default as NoCreditCardLine } from "./no-credit-card-line";
 export { default as NodeTree } from "./node-tree";
 export { default as NodejsFill } from "./nodejs-fill";
 export { default as NodejsLine } from "./nodejs-line";
@@ -2364,6 +2400,8 @@ export { default as SeoLine } from "./seo-line";
 export { default as Separator } from "./separator";
 export { default as ServerFill } from "./server-fill";
 export { default as ServerLine } from "./server-line";
+export { default as ServiceBellFill } from "./service-bell-fill";
+export { default as ServiceBellLine } from "./service-bell-line";
 export { default as ServiceFill } from "./service-fill";
 export { default as ServiceLine } from "./service-line";
 export { default as Settings2Fill } from "./settings-2-fill";
@@ -3025,6 +3063,8 @@ export type IconName =
   | "4k-fill"
   | "4k-line"
   | "a-b"
+  | "accessibility-fill"
+  | "accessibility-line"
   | "account-box-2-fill"
   | "account-box-2-line"
   | "account-box-fill"
@@ -3058,6 +3098,8 @@ export type IconName =
   | "ai-generate"
   | "airplay-fill"
   | "airplay-line"
+  | "alarm-add-fill"
+  | "alarm-add-line"
   | "alarm-fill"
   | "alarm-line"
   | "alarm-snooze-fill"
@@ -3141,6 +3183,8 @@ export type IconName =
   | "arrow-down-double-line"
   | "arrow-down-fill"
   | "arrow-down-line"
+  | "arrow-down-long-fill"
+  | "arrow-down-long-line"
   | "arrow-down-s-fill"
   | "arrow-down-s-line"
   | "arrow-down-wide-fill"
@@ -3167,8 +3211,12 @@ export type IconName =
   | "arrow-left-down-box-line"
   | "arrow-left-down-fill"
   | "arrow-left-down-line"
+  | "arrow-left-down-long-fill"
+  | "arrow-left-down-long-line"
   | "arrow-left-fill"
   | "arrow-left-line"
+  | "arrow-left-long-fill"
+  | "arrow-left-long-line"
   | "arrow-left-right-fill"
   | "arrow-left-right-line"
   | "arrow-left-s-fill"
@@ -3177,6 +3225,8 @@ export type IconName =
   | "arrow-left-up-box-line"
   | "arrow-left-up-fill"
   | "arrow-left-up-line"
+  | "arrow-left-up-long-fill"
+  | "arrow-left-up-long-line"
   | "arrow-left-wide-fill"
   | "arrow-left-wide-line"
   | "arrow-right-box-fill"
@@ -3189,14 +3239,20 @@ export type IconName =
   | "arrow-right-down-box-line"
   | "arrow-right-down-fill"
   | "arrow-right-down-line"
+  | "arrow-right-down-long-fill"
+  | "arrow-right-down-long-line"
   | "arrow-right-fill"
   | "arrow-right-line"
+  | "arrow-right-long-fill"
+  | "arrow-right-long-line"
   | "arrow-right-s-fill"
   | "arrow-right-s-line"
   | "arrow-right-up-box-fill"
   | "arrow-right-up-box-line"
   | "arrow-right-up-fill"
   | "arrow-right-up-line"
+  | "arrow-right-up-long-fill"
+  | "arrow-right-up-long-line"
   | "arrow-right-wide-fill"
   | "arrow-right-wide-line"
   | "arrow-turn-back-fill"
@@ -3213,6 +3269,8 @@ export type IconName =
   | "arrow-up-down-line"
   | "arrow-up-fill"
   | "arrow-up-line"
+  | "arrow-up-long-fill"
+  | "arrow-up-long-line"
   | "arrow-up-s-fill"
   | "arrow-up-s-line"
   | "arrow-up-wide-fill"
@@ -3552,6 +3610,8 @@ export type IconName =
   | "checkbox-multiple-blank-line"
   | "checkbox-multiple-fill"
   | "checkbox-multiple-line"
+  | "chess-fill"
+  | "chess-line"
   | "china-railway-fill"
   | "china-railway-line"
   | "chrome-fill"
@@ -3787,6 +3847,10 @@ export type IconName =
   | "device-line"
   | "device-recover-fill"
   | "device-recover-line"
+  | "diamond-fill"
+  | "diamond-line"
+  | "diamond-ring-fill"
+  | "diamond-ring-line"
   | "dice-1-fill"
   | "dice-1-line"
   | "dice-2-fill"
@@ -4006,6 +4070,8 @@ export type IconName =
   | "fediverse-line"
   | "feedback-fill"
   | "feedback-line"
+  | "figma-fill"
+  | "figma-line"
   | "file-2-fill"
   | "file-2-line"
   | "file-3-fill"
@@ -4134,6 +4200,8 @@ export type IconName =
   | "fire-line"
   | "firebase-fill"
   | "firebase-line"
+  | "firefox-browser-fill"
+  | "firefox-browser-line"
   | "firefox-fill"
   | "firefox-line"
   | "first-aid-kit-fill"
@@ -4562,6 +4630,8 @@ export type IconName =
   | "java-line"
   | "javascript-fill"
   | "javascript-line"
+  | "jewelry-fill"
+  | "jewelry-line"
   | "kakao-talk-fill"
   | "kakao-talk-line"
   | "kanban-view-2"
@@ -4903,6 +4973,8 @@ export type IconName =
   | "movie-ai-line"
   | "movie-fill"
   | "movie-line"
+  | "multi-image-fill"
+  | "multi-image-line"
   | "music-2-fill"
   | "music-2-line"
   | "music-ai-fill"
@@ -4927,6 +4999,8 @@ export type IconName =
   | "nextjs-line"
   | "nft-fill"
   | "nft-line"
+  | "no-credit-card-fill"
+  | "no-credit-card-line"
   | "node-tree"
   | "nodejs-fill"
   | "nodejs-line"
@@ -5386,6 +5460,8 @@ export type IconName =
   | "separator"
   | "server-fill"
   | "server-line"
+  | "service-bell-fill"
+  | "service-bell-line"
   | "service-fill"
   | "service-line"
   | "settings-2-fill"
