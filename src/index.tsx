@@ -8,10 +8,17 @@ export interface RemixIconProps {
 }
 
 function kebabToPascalCase(str: string): string {
-  return str
+  const pascalCaseStr = str
     .split("-")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join("");
+
+  // If string starts with a number, prepend 'Svg' and capitalize the letter after the number
+  if (/^[0-9]/.test(pascalCaseStr)) {
+    return `Svg${pascalCaseStr.replace(/([0-9])([a-z])/i, (_, num, letter) => num + letter.toUpperCase())}`;
+  }
+  
+  return pascalCaseStr;
 }
 
 const RemixIcon: React.FC<RemixIconProps> = ({ name, color, size = 24 }) => {

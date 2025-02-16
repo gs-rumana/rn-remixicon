@@ -1,17 +1,25 @@
 {
   "name": "rn-remixicon",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Remixicons for React Native",
   "main": "src/index.tsx",
   "react-native": "src/index",
   "source": "src/index",
+  "files": [
+    "src/icons",
+    "src/index.tsx",
+    "package.json",
+    "README.md",
+    "tsconfig.json",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "npm run compile && tsc",
     "compile": "npx @svgr/cli --index-template ./index.temp.js --out-dir src/icons --filename-case kebab --native --typescript -- src/svg"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gs-rumana/react-native-remixicon.git"
+    "url": "git+https://github.com/gs-rumana/rn-remixicon.git"
   },
   "keywords": [
     "react-native",
@@ -22,9 +30,9 @@
   "author": "gs-rumana <gursahb7@gmail.com> (https://github.com/gs-rumana)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gs-rumana/react-native-remixicon/issues"
+    "url": "https://github.com/gs-rumana/rn-remixicon/issues"
   },
-  "homepage": "https://github.com/gs-rumana/react-native-remixicon#readme",
+  "homepage": "https://github.com/gs-rumana/rn-remixicon#readme",
   "devDependencies": {
     "@svgr/cli": "^8.1.0",
     "@types/eslint": "~9.6.0",
