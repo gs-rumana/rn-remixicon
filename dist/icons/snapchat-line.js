@@ -1,0 +1,31 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_native_svg_1 = __importStar(require("react-native-svg"));
+const SvgSnapchatLine = (props) => (<react_native_svg_1.default xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" {...props}>
+    <react_native_svg_1.Path d="m15.383 10.58.02-.249c.01-.147.021-.304.031-.48q.05-.838.051-1.845c0-.872-.294-1.487-.914-2.064-.66-.614-1.459-.942-2.59-.942-1.137 0-1.958.335-2.51.888-.696.695-.957 1.218-.957 2.1 0 .521.06 1.994.095 2.619a2 2 0 0 1-.468 1.4q.081.15.152.318c.3.771.198 1.543-.152 2.271-.392.818-.73 1.393-1.41 2.154a8 8 0 0 1-.642.643 2 2 0 0 1 .412.564 5.9 5.9 0 0 1 1.585.075c.81.146 1.324.434 2.194 1.061l.016.011.213.152c.62.44.877.546 1.473.546.609 0 .91-.121 1.523-.552l.207-.146c.877-.632 1.407-.927 2.231-1.076a6.7 6.7 0 0 1 1.56-.074q.021-.043.048-.09.151-.27.368-.477a8 8 0 0 1-.616-.617 9.2 9.2 0 0 1-1.447-2.159c-.363-.749-.47-1.54-.137-2.321q.06-.147.132-.276a2 2 0 0 1-.468-1.435m-10.316-.102c.42 0 .601.305 1.22.305.156 0 .26-.035.325-.066-.008-.156-.098-1.986-.098-2.729 0-1.688.719-2.69 1.542-3.514S10.162 3 11.982 3s3.066.653 3.952 1.478 1.551 1.93 1.551 3.528c0 1.555-.099 2.594-.107 2.716a.6.6 0 0 0 .278.065c.63 0 .63-.31 1.33-.31.686 0 .983.57.983.823 0 .621-.832.967-1.33 1.126-.369.117-.931.291-1.075.635q-.11.261.092.678c.004.008 1.26 2.883 3.93 3.326.235.035.392.241.392.483 0 .333-.37.617-.727.782-.443.2-1.09.37-1.952.505-.043.078-.134.485-.235.887-.135.542-.8.366-.99.326A5 5 0 0 0 16.277 20c-.483.087-.913.378-1.396.726-.713.504-1.465 1.076-2.9 1.076s-2.144-.572-2.857-1.076c-.482-.348-.904-.637-1.395-.726-.899-.163-1.57.036-1.796.056s-.841.245-.996-.326c-.044-.166-.19-.808-.234-.895-.857-.135-1.509-.313-1.953-.513-.365-.165-.726-.443-.726-.778 0-.236.158-.44.392-.483 2.643-.483 3.765-3.004 3.921-3.33.133-.276.161-.5.092-.679-.144-.343-.705-.513-1.074-.635-.105-.034-1.335-.373-1.335-1.117 0-.24.204-.573.581-.73.162-.066.359-.092.465-.092"/>
+  </react_native_svg_1.default>);
+exports.default = SvgSnapchatLine;

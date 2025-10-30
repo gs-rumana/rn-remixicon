@@ -1,0 +1,31 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_native_svg_1 = __importStar(require("react-native-svg"));
+const SvgOperaFill = (props) => (<react_native_svg_1.default xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" {...props}>
+    <react_native_svg_1.Path d="M8.71 6.365c-1.107 1.305-1.822 3.236-1.872 5.4v.47c.051 2.165.765 4.093 1.872 5.4 1.434 1.862 3.566 3.044 5.95 3.044a7.2 7.2 0 0 0 4.005-1.226 9.94 9.94 0 0 1-7.139 2.535A10 10 0 0 1 2.001 12c0-5.524 4.477-10 10-10h.038a9.97 9.97 0 0 1 6.627 2.546 7.24 7.24 0 0 0-4.008-1.226c-2.382 0-4.514 1.183-5.95 3.045zM22.001 12a9.97 9.97 0 0 1-3.335 7.454c-2.565 1.25-4.955.376-5.747-.17 2.52-.554 4.423-3.6 4.423-7.284 0-3.685-1.903-6.73-4.423-7.283.791-.545 3.182-1.42 5.747-.171A9.97 9.97 0 0 1 22.001 12"/>
+  </react_native_svg_1.default>);
+exports.default = SvgOperaFill;

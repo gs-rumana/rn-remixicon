@@ -1,0 +1,31 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_native_svg_1 = __importStar(require("react-native-svg"));
+const SvgFinderLine = (props) => (<react_native_svg_1.default xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" {...props}>
+    <react_native_svg_1.Path d="M21.001 3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm-10.52 1.999L4.002 5v14h8.746a25 25 0 0 1-.163-1.02q-.445.02-.583.02c-2.208 0-4.398-.73-6.555-2.168l1.11-1.664C8.399 15.397 10.209 16 12 16q.199 0 .398-.01a24 24 0 0 1 .007-1.99H9.501v-1c0-3.275.32-5.94.98-8.001m2.12 0c-.665 1.583-1.044 4.412-1.09 7.001h3.123l-.14 1.124q-.152 1.207-.108 2.52 1.518-.449 3.06-1.476l1.11 1.664q-1.98 1.321-3.993 1.84.086.65.219 1.327L20 19V5zM7.001 7a1 1 0 0 1 1 1v1a1 1 0 0 1-2 0V8a1 1 0 0 1 1-1m10 0a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1"/>
+  </react_native_svg_1.default>);
+exports.default = SvgFinderLine;

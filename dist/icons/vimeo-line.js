@@ -1,0 +1,31 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_native_svg_1 = __importStar(require("react-native-svg"));
+const SvgVimeoLine = (props) => (<react_native_svg_1.default xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" {...props}>
+    <react_native_svg_1.Path d="M17.994 3.004C20.427 3.004 22 4.516 22 7.5c0 1.72-.998 3.94-1.832 5.235-2.789 4.333-6.233 8.74-9.643 8.74-3.706 0-4.67-6.831-5.092-8.432s-.533-2.21-1.17-3.233q-.475.33-1.33.93a.5.5 0 0 1-.693-.117L.926 8.807a.5.5 0 0 1 .027-.62Q5.193 3.278 8 3.278c2.392 0 3.125 2.816 3.324 4.223.3 2.117.69 4.738 1.245 5.872.556-.792 2.18-2.888 1.966-3.99-.094-.487-1.317.183-1.887.078-.425-.08-.805-.402-.805-1.026 0-1.31 1.851-5.43 6.15-5.43m.007 2c-2.194 0-3.251 1.533-3.653 2.208 1.25.046 1.97.818 2.134 1.803.388 2.33-1.917 4.92-2.34 5.565-.396.603-3.061 3.328-4.25-3.36-.112-.629-.367-2.163-.665-4.186-.17-1.151-.872-1.763-1.229-1.763-.843 0-1.92.65-3.856 2.515 1.905-.115 2.545 2.276 2.917 3.633.815 2.984 1.57 8.055 3.62 8.055 1.726 0 4.438-2.645 7.37-7.038.208-.312 1.965-3.025 1.965-5.037 0-2.395-1.469-2.395-2.013-2.395"/>
+  </react_native_svg_1.default>);
+exports.default = SvgVimeoLine;
